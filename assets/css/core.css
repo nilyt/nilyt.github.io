@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+html, body {
+	height:100%;
+	font-size:16px;
+}
+body {
+	margin:0;
+	padding:0;
+	text-align:center;
+	background:#0e0e10;
+	color:#fa4a00;
+	font-size:1em;
+}
+
+a:link    { color: #fa0069; text-decoration: none; }
+a:visited { color: #fa0069; text-decoration: none; }
+a:hover   { color: #fa4a00; text-decoration: none; }
+a:active  { color: #fa4a00; text-decoration: none; }
+::-moz-selection {
+	color:#fa4a00;
+}
+::selection {
+	color:#fa4a00;
+}
+
+div#content {
+	padding:50px 0;
+}
